@@ -1,0 +1,8 @@
+# .gitignore
+*
+# keep track
+!.bashrc
+!.gitignore
+!.bash_aliases
+!.config
+!.bash_logout
