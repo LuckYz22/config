@@ -4,5 +4,14 @@
 !.bashrc
 !.gitignore
 !.bash_aliases
-!.config/*/*/*
+!.config/
+!.config/neofetch/
+!.config/pulse/
+!.config/procps/
+!.config/nvim/
+!.config/nvim/lua/core/
+!.config/nvim/lua/custom/
+!.config/nvim/lua/custom/configs/
+!.config/nvim/lua/plugins/
+!.config/nvim/lua/plugins/configs/
 !.bash_logout
