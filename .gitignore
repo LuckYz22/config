@@ -4,5 +4,5 @@
 !.bashrc
 !.gitignore
 !.bash_aliases
-!./.config/
+!.config
 !.bash_logout
