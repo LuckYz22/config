@@ -5,9 +5,6 @@
 !.gitignore
 !.bash_aliases
 !.config/
-!.config/neofetch/
-!.config/pulse/
-!.config/procps/
 !.config/nvim/
 !.config/nvim/lua/core/
 !.config/nvim/lua/custom/
