@@ -29,6 +29,13 @@ M.general = {
     -- Copy all
     ["<C-c>"] = { "<cmd> %y+ <CR>", "Copy whole file" },
 
+    -- Enter tekee jumankauta taikoja
+    ["<Enter>"] = { "o<ESC>", "Add line below" },
+    ["<S-Enter>"] = { "O<ESC>", "Add line above" },
+
+    -- Noice
+    ["<leader>nd"] = { "<cmd>NoiceDismiss<CR>", "Dismiss Noice Message"},
+
     -- line numbers
     ["<leader>n"] = { "<cmd> set nu! <CR>", "Toggle line number" },
     ["<leader>rn"] = { "<cmd> set rnu! <CR>", "Toggle relative number" },
@@ -464,5 +471,6 @@ M.gitsigns = {
     },
   },
 }
+
 
 return M
